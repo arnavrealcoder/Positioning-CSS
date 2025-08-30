@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dream Cars Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#garage">Garage</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#popular">Popular Cars</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <h1>🚗 Dream Cars Showcase</h1>
+    <p>Explore luxury and sports cars with fun CSS positioning examples.</p>
+  </header>
+
+  <!-- Static -->
+  <section>
+    <h2>Classic Cars</h2>
+    <div class="static-demo">
+      🚘 This is a <strong>Static Car</strong>. It stays in the normal flow.
+    </div>
+  </section>
+
+  <!-- Relative + Absolute -->
+  <section id="garage">
+    <h2>Car Garage (Relative + Absolute)</h2>
+    <div class="relative">
+      🏎️ Garage (Relative Container)
+      <div class="absolute">
+        🛠️ Sports Car parked (Absolute inside garage)
+      </div>
+    </div>
+    <p>The sports car (absolute) is positioned inside the garage (relative).</p>
+  </section>
+
+  <!-- Sticky (inside scroll box) -->
+  <section id="menu">
+    <h2>Car Menu (Sticky)</h2>
+    <div class="scroll-box">
+      <div class="sticky">
+        🚦 Sticky Car Menu
+      </div>
+      <p>Scroll this box to see the sticky car menu stick to the top inside its container.</p>
+      <p>⬇️ Keep scrolling inside the box...</p>
+      <p style="margin-bottom:500px;">Lots of content here... 🏁</p>
+    </div>
+  </section>
+
+  <!-- Fixed -->
+  <section>
+    <h2>Ad Banner (Fixed)</h2>
+    <div class="fixed">
+      💡 Car of the Day: Lamborghini Aventador!
+    </div>
+    <p>Scroll the whole page, and this banner stays visible.</p>
+  </section>
+
+  <!-- Popular Cars with Images -->
+  <section id="popular">
+    <h2>Popular Cars</h2>
+    <div class="car-gallery">
+      <div class="car-card">
+        <img src="Ferarri.png" alt="Ferrari">
+        <h3>Ferrari 488</h3>
+        <p>A powerful Italian supercar built for speed.</p>
+      </div>
+      <div class="car-card">
+        <img src="Range_Rover.png" alt="Range Rover">
+        <h3>Range Rover Sport</h3>
+        <p>Luxury SUV with unmatched off-road capabilities.</p>
+      </div>
+      <div class="car-card">
+        <img src="Porche911.png" alt="Porsche 911">
+        <h3>Porsche 911</h3>
+        <p>An iconic sports car with timeless design.</p>
+      </div>
+      <div class="car-card">
+        <img src="TeslaModelRoadster.png" alt="Tesla">
+        <h3>Tesla Model S</h3>
+        <p>Electric performance with futuristic tech.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Test Drive (Long Scroll) -->
+  <section>
+    <h2>Test Drive Section</h2>
+    <p>Scroll more to test sticky menu and fixed banner while imagining test-driving your dream car!</p>
+    <p style="margin-bottom:1000px;">🏁 Long road ahead...</p>
+  </section>
+  <div class="banner" id="Gallery">
+    <div class="slider" style="--quantity: 10" class="Gallery">
+        <div class="item" style="--position: 1"><img src="Car1.jpg" alt=""></div>
+        <div class="item" style="--position: 2"><img src="Car2.jpg" alt=""></div>
+        <div class="item" style="--position: 3"><img src="Car3.jpg" alt=""></div>
+        <div class="item" style="--position: 4"><img src="Car4.jpg" alt=""></div>
+        <div class="item" style="--position: 5"><img src="Car5.jpg" alt=""></div>
+        <div class="item" style="--position: 6"><img src="Car6.jpg" alt=""></div>
+        <div class="item" style="--position: 7"><img src="car7.jpg" alt=""></div>
+        <div class="item" style="--position: 8"><img src="Car8.jpg" alt=""></div>
+        <div class="item" style="--position: 9"><img src="Car9.jpg" alt=""></div>
+        <div class="item" style="--position: 10"><img src="Car10.jpg" alt=""></div>
+    </div>
+    <div class="content">
+        
+        <div class="author">
+            <h2>-Arnav</h2>
+            <p><b>Web project</b></p>
+            <p>
+               Let me know if you want more just like this!
+            </p>
+        </div>
+        <div class="model"></div>
+    </div>
+</div>
+  <!-- Footer -->
+  <footer id="contact">
+    <p>&copy; 2025 Dream Cars Showcase | Contact: info@dreamcars.com</p>
+  </footer>
+
+</body>
+</html>
